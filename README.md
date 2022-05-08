@@ -1,6 +1,6 @@
 # **Group Project**
 
-## Muhammad Talha Ahmad
+## Muhammad Abdullah, Muhammad Talha Ahmad, Ugwuegbu Prince Chibueze
 
 ## Big Data Database Development
 
@@ -48,7 +48,7 @@ db.createCollection("publis", { capped: true, size: 5242880, max: 5000 })
 }
 ```
 
-## Insert the new document into the collection “publis”
+## Insert the new document into the collection "publis"
 
 ```javascript
 db.publis.insertOne({
@@ -62,12 +62,12 @@ db.publis.insertOne({
 })
 ```
 
-## Create two other documents of type “Article” (and insert them into “publis”)
+## Create two other documents of type "Article" (and insert them into "publis")
 
 ```javascript
 db.publis.insertMany([
   {
-    type: "Book",
+    type: "Article",
     title:
       "From high-integrity embedded systems to resiliant autonomous cyber-physical systems",
     year: 2022,
@@ -76,7 +76,7 @@ db.publis.insertMany([
     source: "DBLP",
   },
   {
-    type: "Book",
+    type: "Article",
     title: "Principled methods for mixtures processing",
     year: 2022,
     publisher: "University of Montpellier",
