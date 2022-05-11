@@ -1,6 +1,6 @@
 # **Group Project**
 
-## Muhammad Abdullah, Muhammad Talha Ahmad, Ugwuegbu Prince Chibueze
+## Abdullah Al Amin, Muhammad Talha Ahmad, Ugwuegbu Prince Chibueze
 
 ## Big Data Database Development
 
